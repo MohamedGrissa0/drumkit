@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+body
+{
+    font-family: 'Poor Story', cursive;
+
+    background-color: black;
+    color:white
+}
+h1
+{
+    margin-bottom: 90px;
+    color: rgb(196, 120, 21);
+    padding-top: 50px;
+    text-align: center;
+    font-size: 80px;
+
+}
+    .btns 
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+.btns button
+{
+    color:rgb(175, 30, 79);
+    border: 10px solid #404B69;
+    font-size: 80px;
+    width: 150px;
+    height: 150px;
+
+}
+.w 
+{
+background-image: url(images/crash.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.a {
+    background-image: url(images/kick.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.s
+{
+    background-image: url(images/snare.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.d 
+{
+    background-image: url(images/tom1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.j 
+{
+    background-image: url(images/tom2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.g 
+{
+    background-image: url(images/tom3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.b 
+{
+    background-image: url(images/tom4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.pressed 
+{
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+}
